@@ -183,7 +183,7 @@ void ofApp::draw() {
 void ofApp::sendOsc() {
 	ofxOscMessage msg;
 
-    msg.setAddress("/picam");
+    msg.setAddress("/pidir");
     msg.addStringArg(compname);
     msg.addIntArg((int) trigger);
 
